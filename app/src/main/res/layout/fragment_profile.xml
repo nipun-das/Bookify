@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/dp"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/dp" />
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/cabin_medium"
+                android:gravity="left"
+                android:text="Name"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nameIn"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="329dp"
+                android:gravity="left"
+                android:fontFamily="@font/cabin_medium"
+                android:text="Nipun Das"
+                android:textColor="#808080"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="72.5dp"
+                android:fontFamily="@font/cabin_medium"
+                android:gravity="left"
+                android:text="Mobile"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mobileIn"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="401.5dp"
+                android:fontFamily="@font/cabin_medium"
+                android:gravity="left"
+                android:text="+91 1234567891"
+                android:textColor="#808080"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="145dp"
+                android:fontFamily="@font/cabin_medium"
+                android:gravity="left"
+                android:text="Email"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/emailIn"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="474dp"
+                android:fontFamily="@font/cabin_medium"
+                android:gravity="left"
+                android:text="nipundas02@gmail.com"
+                android:textColor="#808080"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="217.5dp"
+                android:fontFamily="@font/cabin_medium"
+                android:gravity="left"
+                android:text="Address"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/addressIn"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="546.5dp"
+                android:fontFamily="@font/cabin_medium"
+                android:gravity="left"
+                android:text="ABC House, Kerala, India"
+                android:textColor="#808080"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/birthday"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="290dp"
+                android:fontFamily="@font/cabin_medium"
+                android:gravity="left"
+                android:text="Birthday"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/birthdayIn"
+                android:fontFamily="@font/cabin_medium"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="619dp"
+                android:gravity="left"
+                android:text="17 February"
+                android:textColor="#808080"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
