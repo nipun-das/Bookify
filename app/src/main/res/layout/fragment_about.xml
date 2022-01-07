@@ -19,7 +19,7 @@
             android:layout_above="@+id/Favourites"
             android:fontFamily="@font/cabin_medium"
             android:gravity="center"
-            android:text="Bookie v1.0\n"
+            android:text="Bookify v1.0\n"
             android:textColor="@color/white"
             android:textSize="45dp"
             android:textStyle="bold" />
