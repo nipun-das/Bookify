@@ -1,7 +1,7 @@
 # Bookify
 
 - A simple app displaying pre-stored information about books.
-- Designing the UI was fun as well as tiresome.
+- Designing the UI was fun as well as challenging.
 
 ## Screenshots
 <p float="left">
