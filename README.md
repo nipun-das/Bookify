@@ -1,5 +1,5 @@
 # Bookify
-
+- Practice project
 - A simple app displaying pre-stored information about books.
 - Designing the UI was fun as well as challenging.
 
